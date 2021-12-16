@@ -2,9 +2,9 @@
   "name": "ho_tro_giao_hang_server",
   "version": "1.0.0",
   "description": "",
-  "engines": { 
-    "node": "8.9.4" 
- },
+  "engines": {
+    "node": "8.9.4"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --inspect index.js",
@@ -29,8 +29,6 @@
     "flat": "^5.0.2",
     "jsonwebtoken": "^8.5.1",
     "yarn": "^1.22.17",
-    "express":"*",
-    "body-parser":"*"
-    
+    "body-parser": "*"
   }
 }

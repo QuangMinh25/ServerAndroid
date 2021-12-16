@@ -25,7 +25,7 @@ server.use(function (req, res, next) {
 
 server.use("/", accountRouter);
 
-server.listen(process.env.PORT || "3333", (err) => {
-  if (err) throw err;
-  console.log(`> Ready on http://localhost:${process.env.PORT}`);
-});
+var port = process.env.PORT || 3000;
+// const PORT = process.env.PORT;
+//ket noi server socketio va database
+server.listen(port,() => console.log(`Minh Đang mở công tại http://localhost:3000`))
