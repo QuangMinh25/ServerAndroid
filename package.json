@@ -1,0 +1,36 @@
+{
+  "name": "ho_tro_giao_hang_server",
+  "version": "1.0.0",
+  "description": "",
+  "engines": { 
+    "node": "8.9.4" 
+ },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.4.1",
+    "firebase-admin": "^10.0.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "flat": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "yarn": "^1.22.17",
+    "express":"*",
+    "body-parser":"*"
+    
+  }
+}
